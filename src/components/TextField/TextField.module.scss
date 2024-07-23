@@ -1,0 +1,29 @@
+.error {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #FF8080;
+}
+
+.input {
+    all: unset;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    &::placeholder {
+        color: #6F91BC;
+    }
+
+    &:focus {
+        border: 1px solid #6F91BC;
+    }
+}
+
+.inputError {
+    border: 1px solid #FF8080;
+}
+
+.inputSuccess {
+    border: 1px solid #27B274;
+}

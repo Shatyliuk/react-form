@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.submitButton {
+    all: unset;
+    background: linear-gradient(to right bottom, #70C3FF, #4B65FF);
+    border-radius: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.heading {
+    text-align: center;
+    color: #4A4E71;
+    font-size: 28px;
+    line-height: 28px;
+}
