@@ -14,7 +14,7 @@ const SignUpForm = () => {
     formState: { errors },
     getFieldState,
   } = useForm<ISignUpForm>({
-    mode: "onSubmit",
+    mode: "onChange",
     defaultValues: {
       email: "",
       password: "",

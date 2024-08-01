@@ -81,7 +81,7 @@ const PasswordField = ({
           <li key={key} className={styles.listItem}>
             <p
               className={cn(styles.validation, {
-                [styles.error]: error?.types && error?.types[key],
+                [styles.error]: isDirty && error?.types && error?.types[key],
                 [styles.success]:
                   (isDirty && !error) || (error?.types && !error?.types[key]),
               })}
